@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GMES 5</title>
+
+<style>
+body {
+    margin: 0;
+    background: #070b14;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00aaff;
+}
+
+/* غلاف اللعبة */
+.game-cover {
+    width: 90%;
+    max-width: 420px;
+    height: 520px;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+    background:
+        radial-gradient(circle at 70% 25%, #00aaff 0%, transparent 25%),
+        linear-gradient(145deg, #06152d, #07101f 55%, #02040a);
+    
+    box-shadow: 0 0 30px #008cff;
+}
+
+/* دوائر وزخارف */
+.game-cover::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #00aaff;
+    border-radius: 50%;
+    top: 80px;
+    left: -80px;
+    opacity: 0.5;
+}
+
+.game-cover::after {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #ffffff;
+    transform: rotate(45deg);
+    bottom: 80px;
+    right: -70px;
+    opacity: 0.15;
+}
+
+.cover-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.logo {
+    font-size: 22px;
+    color: #00aaff;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero-icon {
+    font-size: 110px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin: 0;
+}
+
+.hero p {
+    color: #aaa;
+}
+
+.bottom {
+    text-align: center;
+    color: #00aaff;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 GMES 5</h1>
+    <p>غلاف لعبة أصلي</p>
+</header>
+
+<div class="game-cover">
+
+    <div class="cover-content">
+
+        <div class="logo">
+            GMES 5 ORIGINAL
+        </div>
+
+        <div class="hero">
+            <div class="hero-icon">⚡</div>
+
+            <h2>NEON<br>RUSH</h2>
+
+            <p>مغامرة مستقبلية</p>
+        </div>
+
+        <div class="bottom">
+            PLAY THE FUTURE
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GMES 5</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #070b14;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #111827;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #00aaff;
+            font-size: 38px;
+        }
+
+        header p {
+            color: #aaa;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px 15px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .game {
+            background: #111827;
+            border: 1px solid #263043;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .cover {
+            height: 260px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .cover h3 {
+            position: absolute;
+            bottom: 15px;
+            left: 10px;
+            right: 10px;
+            margin: 0;
+            font-size: 22px;
+            text-align: center;
+            text-shadow: 0 2px 5px black;
+        }
+
+        .info {
+            padding: 18px;
+        }
+
+        .info p {
+            color: #aaa;
+        }
+
+        .button {
+            display: inline-block;
+            background: #008cff;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 GMES 5</h1>
+    <p>عالم الألعاب بين يديك</p>
+</header>
+
+<main>
+
+    <h2>🔥 الألعاب</h2>
+
+    <div class="games">
+
+        <!-- God of War -->
+        <div class="game">
+            <div class="cover">
+                <img src="images/4d90d02dda55aa3afc2c63891fd%206220c.jpg"
+                     alt="God of War Ragnarök">
+
+                <h3>God of War Ragnarök</h3>
+            </div>
+
+            <div class="info">
+                <p>PS4 / PS5</p>
+                <a href="#" class="button">التفاصيل</a>
+            </div>
+        </div>
+
+
+        <!-- Gran Turismo 7 -->
+        <div class="game">
+            <div class="cover">
+                <img src="images/2d6e6ba491b472ef0cc0b05d97%20b4c0e7.jpg"
+                     alt="Gran Turismo 7">
+
+                <h3>Gran Turismo 7</h3>
+            </div>
+
+            <div class="info">
+                <p>PS4 / PS5</p>
+                <a href="#" class="button">التفاصيل</a>
+            </div>
+        </div>
+
+
+        <!-- Forza Horizon 5 -->
+        <div class="game">
+            <div class="cover">
+                <img src="images/12e0c9c80a81c3423132cb5322%2083b2e9.jpg"
+                     alt="Forza Horizon 5">
+
+                <h3>Forza Horizon 5</h3>
+            </div>
+
+            <div class="info">
+                <p>PC / Xbox</p>
+                <a href="#" class="button">التفاصيل</a>
+            </div>
+        </div>
+
+
+        <!-- Minecraft -->
+        <div class="game">
+            <div class="cover">
+                <img src="images/9a3116733571bb94a1c5722040%200f747a.jpg"
+                     alt="Minecraft">
+
+                <h3>Minecraft</h3>
+            </div>
+
+            <div class="info">
+                <p>PC / Mobile</p>
+                <a href="#" class="button">التفاصيل</a>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>God of War Ragnarök - GMES 5</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #070b14;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #111827;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #00aaff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .hero img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 18px;
+        }
+
+        .card {
+            background: #111827;
+            border: 1px solid #263043;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #00aaff;
+        }
+
+        p {
+            color: #ccc;
+            line-height: 1.8;
+        }
+
+        .info {
+            display: grid;
+            gap: 12px;
+        }
+
+        .item {
+            background: #0b1220;
+            padding: 12px;
+            border-radius: 10px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 20px;
+            background: #008cff;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 GMES 5</h1>
+</header>
+
+<div class="container">
+
+    <div class="hero">
+        <img src="images/4d90d02dda55aa3afc2c63891fd%206220c.jpg"
+             alt="God of War Ragnarök">
+    </div>
+
+    <div class="card">
+
+        <h2>God of War Ragnarök</h2>
+
+        <p>
+            مغامرة تجمع كريتوس وأتريوس في رحلة عبر العوالم التسعة
+            وسط أحداث الأساطير الإسكندنافية.
+        </p>
+
+        <div class="info">
+
+            <div class="item">
+                🎮 المنصات: PS4 / PS5 / PC
+            </div>
+
+            <div class="item">
+                📅 تاريخ الإصدار: 9 نوفمبر 2022
+            </div>
+
+            <div class="item">
+                👤 اللاعبون: لاعب واحد
+            </div>
+
+            <div class="item">
+                🎯 النوع: أكشن ومغامرة
+            </div>
+
+        </div>
+
+        <a href="index.html" class="back">
+            ⬅️ العودة إلى GMES 5
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
